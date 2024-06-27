@@ -18,7 +18,7 @@ export default function CalorieTracker({activities}: CalorieTrackerProps) {
   return (
     <>
         <h2 className="text-3xl font-black text-white text-center">Calories Resume</h2>
-        <div className="flex flex-col items-center md:flex-row md:justify-between gap-5 mt-10">
+        <div className="flex flex-col items-center md:flex-row md:justify-between gap-5 mt-5">
             <CalorieDisplay
                 calories={caloriesConsumed}
                 text="Consumed"

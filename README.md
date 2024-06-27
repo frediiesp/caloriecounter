@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# Calorie Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Calorie Counter](https://github.com/frediiesp/caloriecounter/blob/main/screenshot.webp)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Calorie Counter is a web application developed in React that allows users to add, delete, and edit their meals or activities to calculate calories consumed or burned. This application is deployed on [Vercel](https://caloriecounter-bice.vercel.app/).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- Add food with its calories through a form
+- Add exercise or activity with its calories burned through a form
+- Delete calorie records
+- Calculate consumed, burned, and total calories
+- User-friendly and responsive interface
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React** - JavaScript library for building user interfaces
+- **TypeScript** - Superset of JavaScript that adds static types
+- **Tailwind CSS** - CSS framework for designing the application
+- **Vite** - Fast build tool for web projects
+- **Vercel** - Platform for deploying web applications
+
+## Installation and Execution
+
+Follow these steps to run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:frediiesp/caloriecounter.git

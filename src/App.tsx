@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
-      <header className="bg-lime-600 py-3">
-        <div className="max-w-3xl mx-auto flex justify-between items-center">
+      <header className="bg-lime-600 py-2">
+        <div className="max-w-2xl mx-auto flex justify-between items-center">
           <h1 className="text-center text-lg font-bold text-white uppercase">
             Calories Container
           </h1>
@@ -31,8 +31,8 @@ function App() {
         </div>
       </header>
 
-      <section className="bg-lime-500 py-10 px-5">
-        <div className="max-w-3xl mx-auto">
+      <section className="bg-lime-500 py-5 px-5">
+        <div className="max-w-2xl mx-auto">
           <Form 
             dispatch={dispatch}
             state={state}
@@ -40,15 +40,15 @@ function App() {
         </div>
       </section>
 
-      <section className="bg-gray-800 py-10">
-        <div className="max-w-3xl mx-auto">
+      <section className="bg-gray-800 py-5">
+        <div className="max-w-2xl mx-auto">
           <CalorieTracker
             activities={state.activities}
           />
         </div>
       </section>
 
-      <section className="p-10 mx-auto max-w-3xl">
+      <section className="p-10 mx-auto max-w-2xl">
         <ActivityList
           activities={state.activities}
           dispatch={dispatch}
